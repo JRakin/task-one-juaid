@@ -1,0 +1,76 @@
+.header {
+  background-image: url("../images/cover.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.form {
+  width: 300px;
+  /* align-items: center; */
+  text-align: center;
+  border-radius: 15px;
+  height: 400px;
+  padding: 30px 40px;
+  background-color: aliceblue;
+}
+.slogan h2 {
+  color: #fff;
+  font-size: 70px;
+}
+
+.fetch-btn {
+  color: #fff;
+  background-color: #5b378e;
+  padding: 6px 30px;
+  border: none;
+  margin-left: -110px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.fetch-btn:active,
+.fetch-btn:focus {
+  outline: none;
+}
+.userId-input {
+  border: 2px solid #5b378e;
+  padding: 8px;
+  width: 250px;
+  border-radius: 8px;
+}
+.userId-input:focus,
+.userId-input:active {
+  outline: none;
+}
+.icon {
+  width: 200px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.repo-link {
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  padding: 8px;  
+  margin: 10px auto;  
+  background-color: #fff; 
+  border-radius: 8px;
+  border: 2px solid #5b378e;
+}
+.go-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5b378e;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 30px;
+}
